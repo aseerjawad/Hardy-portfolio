@@ -1,0 +1,43 @@
+/* Intro sec starts*/
+
+
+
+.introduction{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.introduction > .name_about > h4{
+    /* background-color: aqua; */
+}
+
+.cv_contact{
+    display: flex;
+}
+.cv , .contact{
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+
+.Download{
+    text-decoration: none;
+    color: white;
+    background-color: #FD6E0A;
+    height: 50px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: larger;
+    border-color:#FD6E0A ;
+       
+}
+.contact > button{
+    text-decoration: none;
+    font-size: larger;
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    background-color: white;
+    color:#FD6E0A ;
+    border-color:#FD6E0A ;
+}

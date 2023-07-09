@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
 
 
 *{
@@ -18,7 +17,7 @@ nav{
 }
 .nav_bar{
     /* background-color: aqua; */
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -26,10 +25,17 @@ nav{
 .nav_bar > ul{
     display: flex;
 }
+.Hire_me{
+    background-color: #FD6E0A;
+    color: white;
+    width: 100px;
+    height: max-content;
+}
 
 .nav_bar > ul >li{
     list-style: none;
     margin-right: 60px;
+    font-weight: 00;
 
 }
 
@@ -41,9 +47,3 @@ nav{
 }
 
 /* end of navbar */
-/* Intro sec starts*/
-
-.introduction{
-    margin-left: 200px;
-    margin-top: 200px;
-}
