@@ -1,6 +1,4 @@
-
-
-.About_me{
+.About_me {
     text-align: center;
     font-family: Open Sans;
     background-color: #FFF8F3;
@@ -9,34 +7,36 @@
     padding: 200px 200px 200px 200px;
 }
 
-.About_me > p{
+.About_me>p {
     color: rgb(127, 126, 126);
     margin-top: 30px;
 }
 
-.info_section{
+.info_section {
     display: flex;
     /* background-color: aqua; */
     margin: 0 50px 0 50px;
     justify-content: space-evenly;
 }
 
-.info_section > div {
+.info_section>div {
     margin-top: 30px;
-   
+
 }
 
-.info_section > div > p {
-    font-weight: 600;  
+.info_section>div>p {
+    font-weight: 600;
 }
-.info_section > div > h2 {
+
+.info_section>div>h2 {
     font-weight: 100;
-    font-size: 16px;  
+    font-size: 16px;
     color: grey;
 }
+
 /* -------------------------------------- */
 
-.what_ido{
+.what_ido {
     text-align: center;
     font-family: Open Sans;
     /* background-color: #FFF8F3; */
@@ -46,14 +46,14 @@
 
 }
 
-.blocks{
+.blocks {
     display: flex;
     /* background-color: rgb(106, 131, 131); */
     margin: 50px 200px 20px 200px;
 
 }
 
-.blocks > div{
+.blocks>div {
     text-align: left;
     background-color: white;
     padding: 40px 60px 50px 60px;
@@ -62,60 +62,114 @@
     box-shadow: 1px 1px 20px rgb(186, 181, 181);
 }
 
-.javascript > h3{
+.javascript>h3 {
     font-size: 16px;
     font-weight: 800;
     margin-bottom: 10px;
 }
-.javascript > p{
+
+.javascript>p {
     font-size: 15px;
 }
 
 /* ------------------------------------ */
 
-.resume_summary{
-    
+.resume_summary {
+
     /* background-color: aqua; */
     margin: 50px 200px 20px 200px;
 }
 
-.resume_summary >h2{
-    text-align: center; 
+.resume_summary>h2 {
+    text-align: center;
     margin: 100px 0 100px 0
 }
 
-.right_leftsection{
+.right_leftsection {
     display: flex;
-    
+
 }
-.left_sec{
+
+.left_sec {
     margin-right: 50px;
 }
 
-.right_leftsection > div > section{
+.right_leftsection>div>section {
     margin-bottom: 30px;
 }
-.right_leftsection > div > section > h2{
+
+.right_leftsection>div>section>h2 {
     margin-bottom: 20px;
-    opacity: 0.7;   
+    opacity: 0.7;
 }
-.right_leftsection > div > section > h3{
+
+.right_leftsection>div>section>h3 {
     margin-bottom: 10px;
-    font-weight: 800;   
+    font-weight: 800;
 }
 
-.right_leftsection > div > section > h4{
-    margin-bottom: 10px;      
+.right_leftsection>div>section>h4 {
+    margin-bottom: 10px;
 }
-.right_leftsection > div > section > p{
+
+.right_leftsection>div>section>p {
     margin-bottom: 30px;
-    color: gray;     
+    color: gray;
 }
 
-.button_block{
+.button_block {
     margin-top: 30px;
     /* background-color: aqua; */
     display: flex;
     place-content: center;
+    margin-bottom: 200px;
 }
 
+/* -------------------------footer----------------------------- */
+
+footer {
+
+    background-color: antiquewhite;
+
+}
+
+.footer_block {
+    display: flex;
+    margin: 0 200px 0 200px;
+    padding: 200px 0 200px 0;
+
+}
+
+.contact_us {
+    margin-right: 200px;
+}
+
+.contact_us>h2,
+p {
+    margin-bottom: 30px;
+
+}
+
+.social_media>a {
+    padding-right: 10px;
+    font-size: 25px;
+    color: darkorange;
+
+}
+
+.form_sec>form>input {
+    padding: 20px;
+    width: 500px;
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid white;
+
+}
+
+textarea {
+    width: 500px;
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+    border: 1px solid white;
+
+}
