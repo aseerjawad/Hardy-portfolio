@@ -5,6 +5,7 @@
 .introduction{
     margin-left: 200px;
     margin-top: 200px;
+    display: flex;
 }
 
 .introduction > .name_about > h4{
@@ -40,4 +41,19 @@
     background-color: white;
     color:#FD6E0A ;
     border-color:#FD6E0A ;
+}
+
+.image_description{
+    /* background-color: rgb(244, 155, 155); */
+    position: relative;
+}
+.bgm{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+.hardy{
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
 }
