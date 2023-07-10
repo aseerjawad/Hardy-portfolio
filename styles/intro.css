@@ -6,6 +6,7 @@
     margin-left: 200px;
     margin-top: 200px;
     display: flex;
+
 }
 
 .introduction>.name_about>h4 {
@@ -49,6 +50,9 @@
 .image_description {
     /* background-color: rgb(244, 155, 155); */
     position: relative;
+
+
+
 }
 
 .bgm {

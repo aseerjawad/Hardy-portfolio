@@ -10,6 +10,12 @@
 header {
     background-color: antiquewhite;
     padding-top: 60px;
+
+    background-image: url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+
 }
 
 
